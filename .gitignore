@@ -1,0 +1,7 @@
+dist/*
+tqdm/*
+install/*
+.pytest_cache
+__pycache__
+*.pyc
+*.egg-info
