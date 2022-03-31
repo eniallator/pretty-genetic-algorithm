@@ -1,13 +1,14 @@
 from collections import OrderedDict
-from typing import Any, Callable, List, Optional, Self, Tuple, Type
+from typing import Any, Callable, List, Optional, Tuple, Type
+from typing_extensions import Self
 
 from functools import reduce
 from tqdm import notebook
 import random
 import json
 
-from BaseParameter import BaseParameter
-from Creature import Creature
+from .parameter.BaseParameter import BaseParameter
+from .Creature import Creature
 
 
 class PrettyGeneticAlgorithm:

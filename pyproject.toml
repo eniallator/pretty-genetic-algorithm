@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pretty_genetic_algorithm"
-version = "0.0.2"
+version = "0.0.3"
 description = "A genetic algorithm implementation with pretty progress updates"
 authors = ["eniallator"]
 license = "MIT License"
@@ -12,6 +12,9 @@ tqdm = "^4.63.0"
 [tool.poetry.dev-dependencies]
 black = "^22.1.0"
 pytest = "^7.1.1"
+build = "^0.7.0"
+twine = "^4.0.0"
+charset-normalizer = "^2.0.12"
 
 [build-system]
 requires = ["poetry-core>=1.0.0a5"]
