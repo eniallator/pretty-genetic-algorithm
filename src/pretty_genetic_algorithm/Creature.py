@@ -39,7 +39,6 @@ class Creature:
         """Combines this creature's dna with another's"""
         return Creature(
             self.__dna_config,
-            self.hard_cache,
             dna=tuple(
                 self.dna[i] if random.random() < self_bias else other.dna[i]
                 for i in range(len(self.dna))
@@ -50,7 +49,6 @@ class Creature:
         """Has a chance (mutation rate) to randomly change each dna unit and returns it"""
         return Creature(
             self.__dna_config,
-            self.hard_cache,
             dna=tuple(
                 param.new(old_val) if random.random() < mutation_rate else old_val
                 for old_val, param in zip(self.dna, self.__dna_config)

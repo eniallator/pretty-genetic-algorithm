@@ -1,5 +1,5 @@
-from pretty_genetic_algorithm.parameter.RangeParameter import RangeParameter
-from pretty_genetic_algorithm.parameter.BaseParameter import BaseParameter
+from pretty_genetic_algorithm.parameter import RangeParameter
+from pretty_genetic_algorithm.parameter import BaseParameter
 
 
 def test_range():
