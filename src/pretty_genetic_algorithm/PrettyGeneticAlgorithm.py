@@ -224,9 +224,9 @@ class PrettyGeneticAlgorithm:
         ), "Malformed DNA data when deserialising!"
 
         ga_kwargs = {}
-        if len(args) < 2:
+        if len(args) < 1:
             ga_kwargs["num_species"] = len(dna_data)
-        if len(args) < 3:
+        if len(args) < 2:
             ga_kwargs["num_creatures_per_species"] = len(dna_data[0])
         ga_kwargs.update(kwargs)
 
