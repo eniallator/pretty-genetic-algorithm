@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pretty_genetic_algorithm"
-version = "0.0.3"
+version = "0.0.4.1"
 description = "A genetic algorithm implementation with pretty progress updates"
 authors = ["eniallator"]
 license = "MIT License"
